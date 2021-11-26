@@ -39,7 +39,7 @@ signals	Return Value
 "?-?"	["R","W","G","O"]
 
 
-``type CODE = (&'static str, &'static str);
+```type CODE = (&'static str, &'static str);
 const CODES: &'static [CODE] = &[
   ("A", ".-"),
   ("B", "-..."),
@@ -103,4 +103,4 @@ fn main() {
       let result = possibilities(code);
       println!("Result{0} = {1:?}", idx, result);    
     });
-}``
+}```
